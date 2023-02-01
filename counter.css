@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-align: center;
+    background-color: oldlace;
+}
+.container{
+    margin-top: 10rem;
+}
+.vnum{
+    font-size: 60px;
+}
+.column{
+    display: inline-flex;
+}
+.btn{
+    font-size: medium;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: inherit;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor:pointer;
+    margin: 20px 25px;
+    color:#6284B5;
+    border-color: #6284B5;
+}
+.btn:hover{
+    background: #9cb0cb;
+    opacity:0.5;
+}
